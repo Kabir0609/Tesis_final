@@ -1,0 +1,1 @@
+/home/ubuntu/recolector_robot/build/recolector_ros2/ament_cmake_environment_hooks/local_setup.zsh

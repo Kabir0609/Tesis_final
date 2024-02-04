@@ -1,0 +1,57 @@
+[1.030s] Invoking command in '/home/ubuntu/recolector_robot/src/ball_tracker': PYTHONPATH=/home/ubuntu/recolector_robot/build/ball_tracker/prefix_override:/home/ubuntu/recolector_robot/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ball_tracker build --build-base /home/ubuntu/recolector_robot/build/ball_tracker/build install --record /home/ubuntu/recolector_robot/build/ball_tracker/install.log --install-scripts $base/lib/ball_tracker --single-version-externally-managed
+[1.262s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.263s]   warnings.warn(
+[1.272s] running egg_info
+[1.273s] creating ../../build/ball_tracker/ball_tracker.egg-info
+[1.274s] writing ../../build/ball_tracker/ball_tracker.egg-info/PKG-INFO
+[1.275s] writing dependency_links to ../../build/ball_tracker/ball_tracker.egg-info/dependency_links.txt
+[1.275s] writing entry points to ../../build/ball_tracker/ball_tracker.egg-info/entry_points.txt
+[1.276s] writing requirements to ../../build/ball_tracker/ball_tracker.egg-info/requires.txt
+[1.276s] writing top-level names to ../../build/ball_tracker/ball_tracker.egg-info/top_level.txt
+[1.277s] writing manifest file '../../build/ball_tracker/ball_tracker.egg-info/SOURCES.txt'
+[1.279s] reading manifest file '../../build/ball_tracker/ball_tracker.egg-info/SOURCES.txt'
+[1.280s] writing manifest file '../../build/ball_tracker/ball_tracker.egg-info/SOURCES.txt'
+[1.280s] running build
+[1.280s] running build_py
+[1.281s] creating /home/ubuntu/recolector_robot/build/ball_tracker/build
+[1.281s] creating /home/ubuntu/recolector_robot/build/ball_tracker/build/lib
+[1.282s] creating /home/ubuntu/recolector_robot/build/ball_tracker/build/lib/ball_tracker
+[1.282s] copying ball_tracker/detect_ball.py -> /home/ubuntu/recolector_robot/build/ball_tracker/build/lib/ball_tracker
+[1.283s] copying ball_tracker/follow_ball.py -> /home/ubuntu/recolector_robot/build/ball_tracker/build/lib/ball_tracker
+[1.283s] copying ball_tracker/detect_ball_3d.py -> /home/ubuntu/recolector_robot/build/ball_tracker/build/lib/ball_tracker
+[1.284s] copying ball_tracker/__init__.py -> /home/ubuntu/recolector_robot/build/ball_tracker/build/lib/ball_tracker
+[1.284s] copying ball_tracker/process_image.py -> /home/ubuntu/recolector_robot/build/ball_tracker/build/lib/ball_tracker
+[1.285s] running install
+[1.286s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.286s]   warnings.warn(
+[1.286s] running install_lib
+[1.287s] creating /home/ubuntu/recolector_robot/install/ball_tracker/lib/python3.10/site-packages/ball_tracker
+[1.288s] copying /home/ubuntu/recolector_robot/build/ball_tracker/build/lib/ball_tracker/detect_ball.py -> /home/ubuntu/recolector_robot/install/ball_tracker/lib/python3.10/site-packages/ball_tracker
+[1.288s] copying /home/ubuntu/recolector_robot/build/ball_tracker/build/lib/ball_tracker/follow_ball.py -> /home/ubuntu/recolector_robot/install/ball_tracker/lib/python3.10/site-packages/ball_tracker
+[1.288s] copying /home/ubuntu/recolector_robot/build/ball_tracker/build/lib/ball_tracker/detect_ball_3d.py -> /home/ubuntu/recolector_robot/install/ball_tracker/lib/python3.10/site-packages/ball_tracker
+[1.289s] copying /home/ubuntu/recolector_robot/build/ball_tracker/build/lib/ball_tracker/__init__.py -> /home/ubuntu/recolector_robot/install/ball_tracker/lib/python3.10/site-packages/ball_tracker
+[1.289s] copying /home/ubuntu/recolector_robot/build/ball_tracker/build/lib/ball_tracker/process_image.py -> /home/ubuntu/recolector_robot/install/ball_tracker/lib/python3.10/site-packages/ball_tracker
+[1.290s] byte-compiling /home/ubuntu/recolector_robot/install/ball_tracker/lib/python3.10/site-packages/ball_tracker/detect_ball.py to detect_ball.cpython-310.pyc
+[1.291s] byte-compiling /home/ubuntu/recolector_robot/install/ball_tracker/lib/python3.10/site-packages/ball_tracker/follow_ball.py to follow_ball.cpython-310.pyc
+[1.292s] byte-compiling /home/ubuntu/recolector_robot/install/ball_tracker/lib/python3.10/site-packages/ball_tracker/detect_ball_3d.py to detect_ball_3d.cpython-310.pyc
+[1.293s] byte-compiling /home/ubuntu/recolector_robot/install/ball_tracker/lib/python3.10/site-packages/ball_tracker/__init__.py to __init__.cpython-310.pyc
+[1.293s] byte-compiling /home/ubuntu/recolector_robot/install/ball_tracker/lib/python3.10/site-packages/ball_tracker/process_image.py to process_image.cpython-310.pyc
+[1.295s] running install_data
+[1.295s] creating /home/ubuntu/recolector_robot/install/ball_tracker/share/ament_index
+[1.296s] creating /home/ubuntu/recolector_robot/install/ball_tracker/share/ament_index/resource_index
+[1.296s] creating /home/ubuntu/recolector_robot/install/ball_tracker/share/ament_index/resource_index/packages
+[1.296s] copying resource/ball_tracker -> /home/ubuntu/recolector_robot/install/ball_tracker/share/ament_index/resource_index/packages
+[1.297s] copying package.xml -> /home/ubuntu/recolector_robot/install/ball_tracker/share/ball_tracker
+[1.298s] creating /home/ubuntu/recolector_robot/install/ball_tracker/share/ball_tracker/launch
+[1.298s] copying launch/example_launch_include.launch.py -> /home/ubuntu/recolector_robot/install/ball_tracker/share/ball_tracker/launch
+[1.299s] copying launch/ball_tracker.launch.py -> /home/ubuntu/recolector_robot/install/ball_tracker/share/ball_tracker/launch
+[1.299s] creating /home/ubuntu/recolector_robot/install/ball_tracker/share/ball_tracker/config
+[1.300s] copying config/ball_tracker_params_example.yaml -> /home/ubuntu/recolector_robot/install/ball_tracker/share/ball_tracker/config
+[1.300s] running install_egg_info
+[1.302s] Copying ../../build/ball_tracker/ball_tracker.egg-info to /home/ubuntu/recolector_robot/install/ball_tracker/lib/python3.10/site-packages/ball_tracker-0.0.0-py3.10.egg-info
+[1.303s] running install_scripts
+[1.324s] Installing detect_ball script to /home/ubuntu/recolector_robot/install/ball_tracker/lib/ball_tracker
+[1.325s] Installing detect_ball_3d script to /home/ubuntu/recolector_robot/install/ball_tracker/lib/ball_tracker
+[1.326s] Installing follow_ball script to /home/ubuntu/recolector_robot/install/ball_tracker/lib/ball_tracker
+[1.326s] writing list of installed files to '/home/ubuntu/recolector_robot/build/ball_tracker/install.log'
+[1.358s] Invoked command in '/home/ubuntu/recolector_robot/src/ball_tracker' returned '0': PYTHONPATH=/home/ubuntu/recolector_robot/build/ball_tracker/prefix_override:/home/ubuntu/recolector_robot/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ball_tracker build --build-base /home/ubuntu/recolector_robot/build/ball_tracker/build install --record /home/ubuntu/recolector_robot/build/ball_tracker/install.log --install-scripts $base/lib/ball_tracker --single-version-externally-managed

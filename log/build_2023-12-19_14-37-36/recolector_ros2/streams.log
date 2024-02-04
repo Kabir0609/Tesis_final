@@ -1,0 +1,46 @@
+[0.058s] Invoking command in '/home/ubuntu/recolector_robot/build/recolector_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/recolector_robot/src/recolector_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/recolector_robot/install/recolector_ros2
+[0.246s] -- The C compiler identification is GNU 11.4.0
+[0.389s] -- The CXX compiler identification is GNU 11.4.0
+[0.405s] -- Detecting C compiler ABI info
+[0.499s] -- Detecting C compiler ABI info - done
+[0.506s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.507s] -- Detecting C compile features
+[0.508s] -- Detecting C compile features - done
+[0.513s] -- Detecting CXX compiler ABI info
+[0.592s] -- Detecting CXX compiler ABI info - done
+[0.600s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.600s] -- Detecting CXX compile features
+[0.601s] -- Detecting CXX compile features - done
+[0.616s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.801s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.879s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.934s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.050s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.052s] -- Added test 'lint_cmake' to check CMake code style
+[1.053s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.055s] -- Added test 'xmllint' to check XML markup files
+[1.059s] -- Configuring done
+[1.069s] -- Generating done
+[1.070s] -- Build files have been written to: /home/ubuntu/recolector_robot/build/recolector_ros2
+[1.071s] Invoked command in '/home/ubuntu/recolector_robot/build/recolector_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/recolector_robot/src/recolector_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/recolector_robot/install/recolector_ros2
+[1.073s] Invoking command in '/home/ubuntu/recolector_robot/build/recolector_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/recolector_robot/build/recolector_ros2 -- -j2 -l2
+[1.119s] Invoked command in '/home/ubuntu/recolector_robot/build/recolector_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/recolector_robot/build/recolector_ros2 -- -j2 -l2
+[1.154s] Invoking command in '/home/ubuntu/recolector_robot/build/recolector_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/recolector_robot/build/recolector_ros2
+[1.167s] -- Install configuration: ""
+[1.168s] -- Execute custom install script
+[1.168s] -- Symlinking: /home/ubuntu/recolector_robot/install/recolector_ros2/share/ament_index/resource_index/package_run_dependencies/recolector_ros2
+[1.181s] -- Symlinking: /home/ubuntu/recolector_robot/install/recolector_ros2/share/ament_index/resource_index/parent_prefix_path/recolector_ros2
+[1.190s] -- Symlinking: /home/ubuntu/recolector_robot/install/recolector_ros2/share/recolector_ros2/environment/ament_prefix_path.sh
+[1.202s] -- Symlinking: /home/ubuntu/recolector_robot/install/recolector_ros2/share/recolector_ros2/environment/ament_prefix_path.dsv
+[1.211s] -- Symlinking: /home/ubuntu/recolector_robot/install/recolector_ros2/share/recolector_ros2/environment/path.sh
+[1.222s] -- Symlinking: /home/ubuntu/recolector_robot/install/recolector_ros2/share/recolector_ros2/environment/path.dsv
+[1.233s] -- Symlinking: /home/ubuntu/recolector_robot/install/recolector_ros2/share/recolector_ros2/local_setup.bash
+[1.248s] -- Symlinking: /home/ubuntu/recolector_robot/install/recolector_ros2/share/recolector_ros2/local_setup.sh
+[1.256s] -- Symlinking: /home/ubuntu/recolector_robot/install/recolector_ros2/share/recolector_ros2/local_setup.zsh
+[1.267s] -- Symlinking: /home/ubuntu/recolector_robot/install/recolector_ros2/share/recolector_ros2/local_setup.dsv
+[1.276s] -- Symlinking: /home/ubuntu/recolector_robot/install/recolector_ros2/share/recolector_ros2/package.dsv
+[1.286s] -- Symlinking: /home/ubuntu/recolector_robot/install/recolector_ros2/share/ament_index/resource_index/packages/recolector_ros2
+[1.296s] -- Symlinking: /home/ubuntu/recolector_robot/install/recolector_ros2/share/recolector_ros2/cmake/recolector_ros2Config.cmake
+[1.305s] -- Symlinking: /home/ubuntu/recolector_robot/install/recolector_ros2/share/recolector_ros2/cmake/recolector_ros2Config-version.cmake
+[1.316s] -- Symlinking: /home/ubuntu/recolector_robot/install/recolector_ros2/share/recolector_ros2/package.xml
+[1.330s] Invoked command in '/home/ubuntu/recolector_robot/build/recolector_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/recolector_robot/build/recolector_ros2

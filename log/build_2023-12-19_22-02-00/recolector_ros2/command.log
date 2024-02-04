@@ -1,0 +1,6 @@
+Invoking command in '/home/ubuntu/recolector_robot/build/recolector_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/recolector_robot/src/recolector_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/recolector_robot/install/recolector_ros2
+Invoked command in '/home/ubuntu/recolector_robot/build/recolector_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/recolector_robot/src/recolector_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/recolector_robot/install/recolector_ros2
+Invoking command in '/home/ubuntu/recolector_robot/build/recolector_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/recolector_robot/build/recolector_ros2 -- -j2 -l2
+Invoked command in '/home/ubuntu/recolector_robot/build/recolector_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/recolector_robot/build/recolector_ros2 -- -j2 -l2
+Invoking command in '/home/ubuntu/recolector_robot/build/recolector_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/recolector_robot/build/recolector_ros2
+Invoked command in '/home/ubuntu/recolector_robot/build/recolector_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/recolector_robot/build/recolector_ros2

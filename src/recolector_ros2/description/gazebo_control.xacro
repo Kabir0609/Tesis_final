@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <gazebo>
+        <plugin name="two_wheeled_robot_diff_drive" filename="libgazebo_ros_diff_drive.so">
+    
+        <update_rate>100</update_rate>
+        
+        <!-- ruedas -->
+        <left_joint>rueda_izquiera_joint</left_joint>
+        <right_joint>rueda_derecha_joint</right_joint>
+    
+        <!-- cinematica -->
+        <wheel_separation>0.3516</wheel_separation>
+        <wheel_diameter>0.144</wheel_diameter>
+    
+        <!-- limites -->
+        <max_wheel_torque>10</max_wheel_torque>
+        <max_wheel_acceleration>10</max_wheel_acceleration>
+    
+        <!-- Recibe los comandos de velocidad -->
+        <command_topic>cmd_vel</command_topic>
+    
+        <!-- output -->
+        <!-- Cuando es falso, publica no recibe el comando de odometria -->
+        <publish_odom>true</publish_odom>
+    
+        <!-- When true, publish coordinate transform from odom to base_footprint -->
+        <!-- I usually use the robot_localization package to publish this transform -->  
+        <publish_odom_tf>true</publish_odom_tf>
+        
+        <!-- When true, publish coordinate transform from base_link to the wheels -->
+        <!-- The robot_state_publisher package is often used to publish this transform -->  
+        <publish_wheel_tf>true</publish_wheel_tf>
+    
+        <odometry_topic>odom</odometry_topic>
+        <odometry_frame>odom</odometry_frame>
+        <robot_base_frame>base_link</robot_base_frame>
+    
+        <odometry_source>1</odometry_source>
+        <ros>
+            <remapping>odom:=wheel/odometry</remapping>
+        </ros>
+        </plugin>
+    </gazebo>
+
+  </robot>

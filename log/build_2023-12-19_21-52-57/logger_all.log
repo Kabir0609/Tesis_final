@@ -1,0 +1,164 @@
+[0.996s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.996s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f13a2c1ab30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f13a2c5e110>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f13a2c5e110>>)
+[1.042s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.042s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.042s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.042s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.043s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.043s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.043s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/recolector_robot'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.043s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(paredes) by extensions ['ignore', 'ignore_ament_install']
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(paredes) by extension 'ignore'
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(paredes) by extension 'ignore_ament_install'
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(paredes) by extensions ['colcon_pkg']
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(paredes) by extension 'colcon_pkg'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(paredes) by extensions ['colcon_meta']
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(paredes) by extension 'colcon_meta'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(paredes) by extensions ['ros']
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(paredes) by extension 'ros'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(paredes) by extensions ['cmake', 'python']
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(paredes) by extension 'cmake'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(paredes) by extension 'python'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(paredes) by extensions ['python_setup_py']
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(paredes) by extension 'python_setup_py'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/recolector_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/recolector_ros2) by extension 'ignore'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/recolector_ros2) by extension 'ignore_ament_install'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/recolector_ros2) by extensions ['colcon_pkg']
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/recolector_ros2) by extension 'colcon_pkg'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/recolector_ros2) by extensions ['colcon_meta']
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/recolector_ros2) by extension 'colcon_meta'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/recolector_ros2) by extensions ['ros']
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/recolector_ros2) by extension 'ros'
+[1.059s] DEBUG:colcon.colcon_core.package_identification:Package 'src/recolector_ros2' with type 'ros.ament_cmake' and name 'recolector_ros2'
+[1.060s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.060s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.060s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.060s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.060s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.188s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 391 installed packages in /opt/ros/humble
+[1.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.300s] Level 5:colcon.colcon_core.verb:set package 'recolector_ros2' build argument 'cmake_args' from command line to 'None'
+[1.300s] Level 5:colcon.colcon_core.verb:set package 'recolector_ros2' build argument 'cmake_target' from command line to 'None'
+[1.300s] Level 5:colcon.colcon_core.verb:set package 'recolector_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.300s] Level 5:colcon.colcon_core.verb:set package 'recolector_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.301s] Level 5:colcon.colcon_core.verb:set package 'recolector_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[1.301s] Level 5:colcon.colcon_core.verb:set package 'recolector_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[1.301s] Level 5:colcon.colcon_core.verb:set package 'recolector_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[1.301s] Level 5:colcon.colcon_core.verb:set package 'recolector_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.301s] Level 5:colcon.colcon_core.verb:set package 'recolector_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.301s] DEBUG:colcon.colcon_core.verb:Building package 'recolector_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/recolector_robot/build/recolector_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/recolector_robot/install/recolector_ros2', 'merge_install': False, 'path': '/home/ubuntu/recolector_robot/src/recolector_ros2', 'symlink_install': True, 'test_result_base': None}
+[1.316s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.331s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.332s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/recolector_robot/src/recolector_ros2' with build type 'ament_cmake'
+[1.332s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/recolector_robot/src/recolector_ros2'
+[1.350s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.351s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.351s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/recolector_robot/build/recolector_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/recolector_robot/src/recolector_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/recolector_robot/install/recolector_ros2
+[1.641s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/recolector_robot/build/recolector_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/recolector_robot/src/recolector_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/recolector_robot/install/recolector_ros2
+[1.641s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/recolector_robot/build/recolector_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/recolector_robot/build/recolector_ros2 -- -j2 -l2
+[1.689s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/recolector_robot/build/recolector_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/recolector_robot/build/recolector_ros2 -- -j2 -l2
+[1.722s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/recolector_robot/build/recolector_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/recolector_robot/build/recolector_ros2
+[1.749s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(recolector_ros2)
+[1.754s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/recolector_robot/build/recolector_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/recolector_robot/build/recolector_ros2
+[1.770s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/recolector_robot/install/recolector_ros2' for CMake module files
+[1.771s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/recolector_robot/install/recolector_ros2' for CMake config files
+[1.771s] Level 1:colcon.colcon_core.shell:create_environment_hook('recolector_ros2', 'cmake_prefix_path')
+[1.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/recolector_robot/install/recolector_ros2/share/recolector_ros2/hook/cmake_prefix_path.ps1'
+[1.788s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/recolector_robot/install/recolector_ros2/share/recolector_ros2/hook/cmake_prefix_path.dsv'
+[1.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/recolector_robot/install/recolector_ros2/share/recolector_ros2/hook/cmake_prefix_path.sh'
+[1.789s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/recolector_robot/install/recolector_ros2/lib'
+[1.790s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/recolector_robot/install/recolector_ros2/bin'
+[1.790s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/recolector_robot/install/recolector_ros2/lib/pkgconfig/recolector_ros2.pc'
+[1.790s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/recolector_robot/install/recolector_ros2/lib/python3.10/site-packages'
+[1.790s] Level 1:colcon.colcon_core.shell:create_environment_hook('recolector_ros2', 'pythonpath')
+[1.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/recolector_robot/install/recolector_ros2/share/recolector_ros2/hook/pythonpath.ps1'
+[1.805s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/recolector_robot/install/recolector_ros2/share/recolector_ros2/hook/pythonpath.dsv'
+[1.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/recolector_robot/install/recolector_ros2/share/recolector_ros2/hook/pythonpath.sh'
+[1.806s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/recolector_robot/install/recolector_ros2/bin'
+[1.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/recolector_robot/install/recolector_ros2/share/recolector_ros2/package.ps1'
+[1.821s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/recolector_robot/install/recolector_ros2/share/recolector_ros2/package.dsv'
+[1.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/recolector_robot/install/recolector_ros2/share/recolector_ros2/package.sh'
+[1.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/recolector_robot/install/recolector_ros2/share/recolector_ros2/package.bash'
+[1.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/recolector_robot/install/recolector_ros2/share/recolector_ros2/package.zsh'
+[1.824s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/recolector_robot/install/recolector_ros2/share/colcon-core/packages/recolector_ros2)
+[1.858s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(recolector_ros2)
+[1.873s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/recolector_robot/install/recolector_ros2' for CMake module files
+[1.875s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/recolector_robot/install/recolector_ros2' for CMake config files
+[1.875s] Level 1:colcon.colcon_core.shell:create_environment_hook('recolector_ros2', 'cmake_prefix_path')
+[1.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/recolector_robot/install/recolector_ros2/share/recolector_ros2/hook/cmake_prefix_path.ps1'
+[1.892s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/recolector_robot/install/recolector_ros2/share/recolector_ros2/hook/cmake_prefix_path.dsv'
+[1.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/recolector_robot/install/recolector_ros2/share/recolector_ros2/hook/cmake_prefix_path.sh'
+[1.893s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/recolector_robot/install/recolector_ros2/lib'
+[1.893s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/recolector_robot/install/recolector_ros2/bin'
+[1.893s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/recolector_robot/install/recolector_ros2/lib/pkgconfig/recolector_ros2.pc'
+[1.893s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/recolector_robot/install/recolector_ros2/lib/python3.10/site-packages'
+[1.893s] Level 1:colcon.colcon_core.shell:create_environment_hook('recolector_ros2', 'pythonpath')
+[1.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/recolector_robot/install/recolector_ros2/share/recolector_ros2/hook/pythonpath.ps1'
+[1.910s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/recolector_robot/install/recolector_ros2/share/recolector_ros2/hook/pythonpath.dsv'
+[1.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/recolector_robot/install/recolector_ros2/share/recolector_ros2/hook/pythonpath.sh'
+[1.911s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/recolector_robot/install/recolector_ros2/bin'
+[1.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/recolector_robot/install/recolector_ros2/share/recolector_ros2/package.ps1'
+[1.927s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/recolector_robot/install/recolector_ros2/share/recolector_ros2/package.dsv'
+[1.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/recolector_robot/install/recolector_ros2/share/recolector_ros2/package.sh'
+[1.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/recolector_robot/install/recolector_ros2/share/recolector_ros2/package.bash'
+[1.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/recolector_robot/install/recolector_ros2/share/recolector_ros2/package.zsh'
+[1.931s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/recolector_robot/install/recolector_ros2/share/colcon-core/packages/recolector_ros2)
+[1.932s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.932s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.933s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.933s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.957s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.958s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.958s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.976s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.994s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/recolector_robot/install/local_setup.ps1'
+[1.996s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/recolector_robot/install/_local_setup_util_ps1.py'
+[1.997s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/recolector_robot/install/setup.ps1'
+[2.019s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/recolector_robot/install/local_setup.sh'
+[2.019s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/recolector_robot/install/_local_setup_util_sh.py'
+[2.020s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/recolector_robot/install/setup.sh'
+[2.036s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/recolector_robot/install/local_setup.bash'
+[2.037s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/recolector_robot/install/setup.bash'
+[2.054s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/recolector_robot/install/local_setup.zsh'
+[2.054s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/recolector_robot/install/setup.zsh'
